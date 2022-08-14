@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <title>Cat Trick Survey</title>
+  </head>
+  <body>
+    <h1 id="title">Cat Trick Survey Form</h1>
+    <p id="description">This is a form to gauge how effectively you could train your cat</p>
+
+    <form id="survey-form">
+      
+      <label id="name-label">Name of Cat 
+        <input id="name" type="text" required  placeholder="Name of Cat">
+      </label>
+      <label id="email-label">Email
+        <input id="email" type="email" required placeholder="Email">
+      </label>
+      <label id="number-label">Age of Cat
+        <input id="number" type="number" min="0" max="28" placeholder="Age of Cat">
+      </label>
+
+      <label>How Would You Describe Your Cat?
+        <select id="dropdown">
+          <option>Select most accurate one</option>
+          <option>Excited</option>
+          <option>Aloof</option>
+          <option>Curious</option>
+          <option>Mischevious</option>
+          <option>Pompous</option>
+        </select>
+      </label>
+      
+      <label>Is Your Cat Food Motivated?
+        <label>
+          <input value="yes" name="food" type="radio">
+        Yes</label>
+        <label>
+          <input value="no" name="food" type="radio">
+        No</label>
+      </label>
+
+      <label>What Tricks Would You Like Your Cat to Learn? <span>(Check as many as you want)</span>
+        <label>
+          <input value="sit" type="checkbox">
+        Sit</label>
+        <label>
+          <input value="spin" type="checkbox">
+        Spin</label>
+        <label>
+          <input value="lay-down" type="checkbox">
+        Lay Down</label>
+        <label>
+          <input value="sit pretty" type="checkbox">
+        Sit Pretty</label>
+        <label>
+          <input value="high-five" type="checkbox">
+        High Five</label>
+      </label>
+
+      <label>Other Noteable Aspects About Your Cat?
+        <textarea></textarea>
+      </label>
+
+      <div>
+        <input id="submit" type="submit" value="Submit">
+      </div>
+
+
+
+
+      
+    </form>
+  </body>
+</html>
